@@ -28,6 +28,6 @@ png("plot2.png", width=480, height=480)
 
 plot(dateTime, globalActivePower,  type="l", xlab="", ylab="Global Active Power (kilowatts)")
 
-#. we close the data png
+#. Exit/Release the graphics device
 
 dev.off()
