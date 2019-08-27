@@ -42,6 +42,6 @@ legend("topright",
        bty = "0",lty=, lwd=2.5)
 plot(dateTime, globalReactivePower, type="l", xlab="datetime", ylab="Global_reactive_power")
 
-#. we close the data png
+#. Exit/Release the graphics device
 
 dev.off()
